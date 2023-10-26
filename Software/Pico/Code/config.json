@@ -1,0 +1,25 @@
+{
+  "buttons": {
+    "open": "GP3",
+    "tilt": "GP15"
+  },
+  "sensor": {
+    "tilt": "GP11"
+  },
+  "movement": {
+    "speed": 0.005,
+    "gain": 0, 
+    "total_tilt_angles": 5,
+    "tilt_angle_increment": 100
+  },
+  "stepper_config": {
+    "a1": "GP21",
+    "a2": "GP20",
+    "b1": "GP19",
+    "b2": "GP18"
+  },
+  "auto_open": {
+    "on": true,
+    "delay": 5
+  }
+}
